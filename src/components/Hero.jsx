@@ -59,7 +59,7 @@ const Hero = () => {
               <input
                 id="dropOff"
                 type="date"
-                className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+                className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
               />
             </div>
 

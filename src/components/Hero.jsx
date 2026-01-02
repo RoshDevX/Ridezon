@@ -28,7 +28,7 @@ const Hero = () => {
                 list="destinations"
                 id="destinationInput"
                 type="text"
-                className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none capitalize"
+                className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none capitalize"
                 placeholder="Type here"
                 required
               />
@@ -47,7 +47,7 @@ const Hero = () => {
               <input
                 id="pickUp"
                 type="date"
-                className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+                className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
               />
             </div>
 

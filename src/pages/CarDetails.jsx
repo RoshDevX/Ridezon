@@ -96,7 +96,7 @@ const CarDetails = () => {
                     onChange={(e) => setPickupDate(e.target.value)}
                     min={new Date().toISOString().split("T")[0]}
                     id="pickUpDate"
-                    className="rounded bg-white border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+                    className="w-full rounded bg-white border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
                   />
                 </div>
                 <div className="flex flex-col w-full">
@@ -110,7 +110,7 @@ const CarDetails = () => {
                     min={pickUpDate}
                     id="dropOffDate"
                     disabled={!pickUpDate}
-                    className="rounded bg-white border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+                    className="w-full rounded bg-white border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
                   />
                 </div>
                 <button className="flexCenter gap-1 rounded-md btn-solid min-w-44">
